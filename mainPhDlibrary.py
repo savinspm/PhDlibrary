@@ -25,9 +25,9 @@ def loadLaptopSavins():
 
 def loadBullxual():
     print("Loading Bullxual Enviorement Variables")
-    os.environ["SPM_SAVINSPHD_PATH"] = "/Users/savins/repositorios/PhDlibrary/PhDlibrary"
-    os.environ["SPM_ROOT_PATH"] = "/Users/savins/repositorios/PhDlibrary/PhDlibrary"
-    os.environ["SPM_FDA_PATH"] = "/Users/savins/repositorios/PhDlibrary/PhDlibrary/DB/test1"
+    os.environ["SPM_SAVINSPHD_PATH"] = "/home/savins/test_library/PhDlibrary/PhDlibrary"
+    os.environ["SPM_ROOT_PATH"] = "/home/savins/test_library/PhDlibrary/PhDlibrary"
+    os.environ["SPM_FDA_PATH"] = "/home/savins/test_library/PhDlibrary/PhDlibrary/DB/test1"
 
 loadENVIROMENTVARIABLES()
 
