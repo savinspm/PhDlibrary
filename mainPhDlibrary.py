@@ -14,6 +14,7 @@ def loadENVIROMENTVARIABLES():
         loadLaptopSavins()
     else:
         os.environ["SPM_machine"] = "bullxual"
+        loadBullxual()
 
 
 def loadLaptopSavins():
