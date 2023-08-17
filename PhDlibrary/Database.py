@@ -14,7 +14,7 @@ def splitDatabase(input, output):
             print(contador)
             foutput.close()
             contador += 1
-            foutput = open ("{}chembl_{}.mol2".format(output,contador), "w")
+            foutput = open ("{}FDA{}.mol2".format(output,contador), "w")
         foutput.write(line)
         line = file.readline()
     foutput.close()

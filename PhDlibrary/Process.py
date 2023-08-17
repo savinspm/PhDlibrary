@@ -14,7 +14,7 @@ matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 import numpy as np
 import shutil
-import savinsPhD as savins
+import PhDlibrary 
 from tqdm import tqdm
 import numpy as np
 from joblib import Parallel, delayed
@@ -182,7 +182,7 @@ def process_FDA_ROCS(inputPath):
 
 	folders = sorted(glob.glob(inputPath+'*'))
 	#We go through the folders
-	for ligand in savins.Constant.PROTEINSFDA40:
+	for ligand in PhDlibrary.Constant.PROTEINSFDA40:
 		for folder in folders:
 			if folder.find("_{}_".format(ligand)) >= 0:
 				print (folder)

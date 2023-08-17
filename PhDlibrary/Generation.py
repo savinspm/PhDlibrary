@@ -1,7 +1,7 @@
 # IMPORTS
 import os
 import glob
-import savinsPhD as savins
+import PhDlibrary
 from tqdm import tqdm
 import time 
 import pandas as pd 
@@ -21,28 +21,27 @@ def generate_FDA_ROCS():
 	script = "ROCS"
 	database = "DB/test1"
 	partition = getPartition()
-	jobs = 50
+	jobs = 2
 	IDname = "FDA"
 	# Creating a folder to store experiments.
-	metaFolderExperiment = "{}_{}_{}_{}".format(savins.Constant.timename(), script, (database.split("DB/", 1)[1]).split("/")[0], partition)
+	metaFolderExperiment = "{}_{}_{}_{}".format(PhDlibrary.Constant.timename(), script, (database.split("DB/", 1)[1]).split("/")[0], partition)
 	os.mkdir(metaFolderExperiment)
 
-	for protein in savins.FDA5PROTEINS:
+	for protein in PhDlibrary.FDA5PROTEINS:
 		print (protein)
 		
-		query = "DB/fdaWithPCA/mol2/{}.mol2".format(protein)
+		query = "DB/test1/{}.mol2".format(protein)
 		
-		lanzador(metaFolderExperiment,script, IDname, query, database, partition,jobs)
+		lanzador(metaFolderExperiment,script, IDname, query, database, partition,jobs, "mol2")
 		
 ##############################
 ###    GENERATION SCRIPTS EXPERIMENTS - LANZADOR
 ##############################
 
-def lanzador(metaFolderExperiment, script, IDname, molQuery, folderDatabase, partition, nJobs):
+def lanzador(metaFolderExperiment, script, IDname, molQuery, folderDatabase, partition, nJobs, formatFile):
 
-	#Get launcher path and molecule format
-	routeLauncher,formatMol = obtainScript(script)
-	
+	#Get molecule format
+	formatMol = formatFile
 	
 	#Name of the query molecule and of the database folder
 	nombreMolQuery, ext = os.path.splitext(os.path.basename(molQuery))
@@ -63,18 +62,10 @@ def lanzador(metaFolderExperiment, script, IDname, molQuery, folderDatabase, par
 	os.mkdir("{}/txt".format(carpetaExperimento))
 	os.mkdir("{}/molecules".format(carpetaExperimento))
 	
-	#copy the executable
-	if routeLauncher != "-":
-		os.system("cp {} {}".format(routeLauncher,carpetaExperimento))
-		directorioActual = os.getcwd()
-		os.chdir(carpetaExperimento)
-		os.system("python {}.py".format(script))
-		os.chdir(directorioActual)
 	
 	#we obtain the list of molecules to be executed
-	#print "{}{}/*.{}".format(ROOT_DIRECTORY, folderDatabase, formatMol)
-	print("{}/*.{}".format(folderDatabase, formatMol))
-	listFiles  = sorted(glob.glob("{}/*.{}".format(folderDatabase, formatMol))) 
+	print ("{}/{}/*.{}".format(ROOT_DIRECTORY, folderDatabase, formatMol))
+	listFiles  = sorted(glob.glob("{}/{}/*.{}".format(ROOT_DIRECTORY, folderDatabase, formatMol))) 
 	for i in range(0,len(listFiles)):
 		listFiles[i], temp = os.path.splitext(os.path.basename(listFiles[i]))
 	
@@ -117,7 +108,7 @@ def lanzador(metaFolderExperiment, script, IDname, molQuery, folderDatabase, par
 		
 		for j in range(int(limiteInferior),int(limiteSuperior)):
 			if(script == "ROCS"):	
-				comando = "python tiempos.py txt/RES{3}-{4}.txt {0} -query ../{1} -dbase {2}/../fda.mol2 -prefix txt/RES{3}-fda -shapeonly".format("./rocs", molQuery,folderDatabase, nombreMolQuery, listFiles[j])		
+				comando = "{0} -query ../{1} -dbase {2}/{4}.{5} -prefix txt/RES{3}-fda -shapeonly".format("./rocs", molQuery,folderDatabase, nombreMolQuery, listFiles[j],formatMol)		
 			outfile.write(comando)
 			outfile.write("\n")
 				
@@ -131,8 +122,3 @@ def lanzador(metaFolderExperiment, script, IDname, molQuery, folderDatabase, par
 		jobfile.write("\n")
 		jobfile.close()
 
-
-def obtainScript(script):
-	if(script=="ROCS"):
-		return "{}/savinsPhD/lanzador/principales/ROCS.py".format(os.environ["SPM_SAVINSPHD_PATH"]), "mol2"
-	

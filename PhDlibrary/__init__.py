@@ -12,5 +12,4 @@ from PhDlibrary.Database import *
 from PhDlibrary.Dataframe import *
 from PhDlibrary.Extras import *
 from PhDlibrary.Generation import *
-from PhDlibrary.Plot import *
 from PhDlibrary.Process import *
