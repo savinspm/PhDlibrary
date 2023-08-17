@@ -108,7 +108,7 @@ def lanzador(metaFolderExperiment, script, IDname, molQuery, folderDatabase, par
 		
 		for j in range(int(limiteInferior),int(limiteSuperior)):
 			if(script == "ROCS"):	
-				comando = "{0} -query ../{1} -dbase {2}/{4}.{5} -prefix txt/RES{3}-fda -shapeonly".format("./rocs", molQuery,folderDatabase, nombreMolQuery, listFiles[j],formatMol)		
+				comando = "{0} -query ../{1} -dbase {2}/{4}.{5} -prefix txt/RES{3}-fda -shapeonly".format("rocs", molQuery,folderDatabase, nombreMolQuery, listFiles[j],formatMol)		
 			outfile.write(comando)
 			outfile.write("\n")
 				
