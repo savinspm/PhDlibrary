@@ -1,0 +1,28 @@
+#
+# This is an automatically generated UEGO configuration file.
+# Edit only if you really know, what you're doing!
+#
+# For configuration, use 'uego -c' instead.
+#
+
+[Random numbers]
+
+	random seed:	1499947897
+
+[Objective function]
+
+	search space type:	0
+	function index:		0
+	dimension of space:	3
+	lower bound vector:
+		-5.000000 -5.000000 -5.000000 
+	upper bound vector:
+		5.000000 5.000000 5.000000 
+
+[UEGO parameters]
+
+	function evaluations:	10000
+	max. species number:	5
+	stability threshold:	65.8278
+	levels:			5
+	smallest radius:	1.000000e+01

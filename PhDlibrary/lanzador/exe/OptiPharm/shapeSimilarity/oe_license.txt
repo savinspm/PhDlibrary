@@ -1,0 +1,154 @@
+################# ACADEMIC LICENSE ##################################
+#                                                                   #
+#   This file is a license for OpenEye Scientific Software.  Any    #
+#   modifications to this file may invalidate the license.          #
+#                                                                   #
+#   The laboratory of Horacio Pérez Sánchez                       #
+#   Universidad Católica San Antonio de Murcia (UCAM)              #
+#                                                                   #
+#   Mon Jun 26 08:02:11 2017                                        #
+#####################################################################
+#PRODUCT: bioisostere
+#EXP_DATE: 2018 06 26
+#LICENSEE: The laboratory of Horacio Pérez Sánchez
+#SITE: Universidad Católica San Antonio de Murcia (UCAM)
+LICENSE_KEY: ccfee2207d5d8a2bbbfff52100a6c07d2d08d2c5460068aa264cbb9c42c62eff
+#PRODUCT: docking
+#EXP_DATE: 2018 06 26
+#FEATURES: python;java;clr
+#LICENSEE: The laboratory of Horacio Pérez Sánchez
+#SITE: Universidad Católica San Antonio de Murcia (UCAM)
+LICENSE_KEY: 5ecb1fa18c893adc76f19b85cc979b5342a935ca74b9de301ce6959256114e08
+#PRODUCT: eon
+#EXP_DATE: 2018 06 26
+#LICENSEE: The laboratory of Horacio Pérez Sánchez
+#SITE: Universidad Católica San Antonio de Murcia (UCAM)
+LICENSE_KEY: bfad36fb19e8f9c5c5ba84f0cef84c9c9da70ae8a23611a6f411f4c9a516e82c
+#PRODUCT: fastrocs
+#EXP_DATE: 2018 06 26
+#FEATURES: python;java;clr
+#LICENSEE: The laboratory of Horacio Pérez Sánchez
+#SITE: Universidad Católica San Antonio de Murcia (UCAM)
+LICENSE_KEY: d373814eb8a2799a39862348b49eb11061601130af9d1c7d891f36adb857c304
+#PRODUCT: filter
+#EXP_DATE: 2018 06 26
+#FEATURES: toolkit;python;java;clr
+#LICENSEE: The laboratory of Horacio Pérez Sánchez
+#SITE: Universidad Católica San Antonio de Murcia (UCAM)
+LICENSE_KEY: 1506005057c7d67f2a4767443d3e35b053481fcb011233e9d0eee952036f9409
+#PRODUCT: fred2
+#EXP_DATE: 2018 06 26
+#LICENSEE: The laboratory of Horacio Pérez Sánchez
+#SITE: Universidad Católica San Antonio de Murcia (UCAM)
+LICENSE_KEY: 5d0f7f0b4064ef15707a8f09ec5f5e10e2def260e52e757d0e6fa6e6828dacad
+#PRODUCT: grapheme
+#EXP_DATE: 2018 06 26
+#FEATURES: python;java;clr
+#LICENSEE: The laboratory of Horacio Pérez Sánchez
+#SITE: Universidad Católica San Antonio de Murcia (UCAM)
+LICENSE_KEY: 08e8ae61871432b30c87d6cb5e48028fc3892dadd14f56c443647ed63aaf25fa
+#PRODUCT: graphsim
+#EXP_DATE: 2018 06 26
+#FEATURES: python;java;clr
+#LICENSEE: The laboratory of Horacio Pérez Sánchez
+#SITE: Universidad Católica San Antonio de Murcia (UCAM)
+LICENSE_KEY: cb8a86f3a1dfb981846f3bad4eefd9272679b997e68a563cccac80334766796c
+#PRODUCT: iupac
+#EXP_DATE: 2018 06 26
+#FEATURES: python;java;clr
+#LICENSEE: The laboratory of Horacio Pérez Sánchez
+#SITE: Universidad Católica San Antonio de Murcia (UCAM)
+LICENSE_KEY: a8a98815381eddf7f51b013021976bc5d002106f5b01dccae503a688a79fbcfc
+#PRODUCT: oechem
+#EXP_DATE: 2018 06 26
+#FEATURES: python;java;clr
+#LICENSEE: The laboratory of Horacio Pérez Sánchez
+#SITE: Universidad Católica San Antonio de Murcia (UCAM)
+LICENSE_KEY: 7302da90065e109a86e680ccd9dd092d2070e85bf27c698f055fcd425eb810db
+#PRODUCT: oedepict
+#EXP_DATE: 2018 06 26
+#FEATURES: python;java;clr
+#LICENSEE: The laboratory of Horacio Pérez Sánchez
+#SITE: Universidad Católica San Antonio de Murcia (UCAM)
+LICENSE_KEY: 655c24694baaf4136cc601a5542db40254b692f7fe5e6aac5f0d87c959ac31c1
+#PRODUCT: oemedchem
+#EXP_DATE: 2018 06 26
+#FEATURES: python;java;clr
+#LICENSEE: The laboratory of Horacio Pérez Sánchez
+#SITE: Universidad Católica San Antonio de Murcia (UCAM)
+LICENSE_KEY: fa7a29c4219f0dd9aede9b5ff6967d1e55cd24898cce870f2148b6a40c01be11
+#PRODUCT: omega
+#EXP_DATE: 2018 06 26
+#FEATURES: gas-phase;toolkit;python;java;clr
+#LICENSEE: The laboratory of Horacio Pérez Sánchez
+#SITE: Universidad Católica San Antonio de Murcia (UCAM)
+LICENSE_KEY: 6d6ba6a1f38d1311276807d5509f6c597fdbffbbba9fa9fdcc273246630a992d
+#PRODUCT: omega-db
+#EXP_DATE: 2018 06 26
+#LICENSEE: The laboratory of Horacio Pérez Sánchez
+#SITE: Universidad Católica San Antonio de Murcia (UCAM)
+LICENSE_KEY: 2754b9665c04b3634d901093ec179e30281cb69b3a06eebaa54ccb219fd55257
+#PRODUCT: posit
+#EXP_DATE: 2018 06 26
+#LICENSEE: The laboratory of Horacio Pérez Sánchez
+#SITE: Universidad Católica San Antonio de Murcia (UCAM)
+LICENSE_KEY: c5237809a983f1ff66800214bcbb88010b2cbf7081284053db5aebd3450cf619
+#PRODUCT: quacpac
+#EXP_DATE: 2018 06 26
+#FEATURES: beta;python;java;clr
+#LICENSEE: The laboratory of Horacio Pérez Sánchez
+#SITE: Universidad Católica San Antonio de Murcia (UCAM)
+LICENSE_KEY: 2049d8e057c61eedb8faa11ee2c0a612770000477afba070720a0123972f84d2
+#PRODUCT: rocs
+#EXP_DATE: 2018 06 26
+#LICENSEE: The laboratory of Horacio Pérez Sánchez
+#SITE: Universidad Católica San Antonio de Murcia (UCAM)
+LICENSE_KEY: be80675f7a3a37a6bdc3d8f055471928eec4a697ee46d5b19074f994cfcf0fcd
+#PRODUCT: shape
+#EXP_DATE: 2018 06 26
+#FEATURES: molecules;grids;python;java;clr
+#LICENSEE: The laboratory of Horacio Pérez Sánchez
+#SITE: Universidad Católica San Antonio de Murcia (UCAM)
+LICENSE_KEY: e201adaa6ffd9efa6999bcf23ab83837f825db801ba2f2ec1782403b7575dc53
+#PRODUCT: spicoli
+#EXP_DATE: 2018 06 26
+#FEATURES: python;java;clr
+#LICENSEE: The laboratory of Horacio Pérez Sánchez
+#SITE: Universidad Católica San Antonio de Murcia (UCAM)
+LICENSE_KEY: 9261fd161730efef608bc3f326b71dd0a4035d71e309b6c049e98fc141344209
+#PRODUCT: szmap
+#EXP_DATE: 2018 06 26
+#LICENSEE: The laboratory of Horacio Pérez Sánchez
+#SITE: Universidad Católica San Antonio de Murcia (UCAM)
+LICENSE_KEY: ffd477b62db6dc7cd38f9462ee1db91ea6dfa342c41380a571cf34afb03872a8
+#PRODUCT: szmaptk
+#EXP_DATE: 2018 06 26
+#FEATURES: python;java;clr
+#LICENSEE: The laboratory of Horacio Pérez Sánchez
+#SITE: Universidad Católica San Antonio de Murcia (UCAM)
+LICENSE_KEY: 827ee9aaf0b8649060bcff8fc7e5cc07cba2f1c064e645b1b363702e3b1959ff
+#PRODUCT: szybki
+#EXP_DATE: 2018 06 26
+#FEATURES: python;java;clr
+#LICENSEE: The laboratory of Horacio Pérez Sánchez
+#SITE: Universidad Católica San Antonio de Murcia (UCAM)
+LICENSE_KEY: 11797f949504d5b4fec57b94d1846e98d39da2ac3b728d9783528694dfab2474
+#PRODUCT: case
+#EXP_DATE: 2018 06 26
+#FEATURES: python;java;clr
+#LICENSEE: The laboratory of Horacio Pérez Sánchez
+#SITE: Universidad Católica San Antonio de Murcia (UCAM)
+LICENSE_KEY: 80d21b4777d0f4b68884fcd0fbaa728ea66f52e5992400c8083185101b494566
+#PRODUCT: vida
+#EXP_DATE: 2018 06 26
+#FEATURES: script line
+#LICENSEE: The laboratory of Horacio Pérez Sánchez
+#SITE: Universidad Católica San Antonio de Murcia (UCAM)
+LICENSE_KEY: 158480a42043db637677f0258efacae19919fff314cb90177a192f70630fc1a4
+#PRODUCT: zap
+#EXP_DATE: 2018 06 26
+#FEATURES: basic toolkit;protein pka;perfect charge;python;java;clr
+#LICENSEE: The laboratory of Horacio Pérez Sánchez
+#SITE: Universidad Católica San Antonio de Murcia (UCAM)
+LICENSE_KEY: b68a7cf83176f808e7fb960be5fecc8b0a929b112488751fcbf8149824f23dfa
+
