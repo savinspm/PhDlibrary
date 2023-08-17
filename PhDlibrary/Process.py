@@ -22,7 +22,6 @@ def experimentsToCSV(folder, software):
 	os.chdir(folder)
 	
 	#if os.path.isfile("outputJob.csv"):
-		
 	#	return
 	
 	#ErrorJob
@@ -74,7 +73,6 @@ def experimentsToCSV(folder, software):
 				for line in infile:
 					outfile.write(line)
 		
-			
 			#os.remove(fname)
 	#txt
 
